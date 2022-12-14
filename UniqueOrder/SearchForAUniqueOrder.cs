@@ -14,10 +14,10 @@ public class SearchForAUniqueOrder
         List<char> result = new List<char>();
         for (int i = 0; i < enter.Length; i++)
         {
-            int a = i + 1;
-            if (a == enter.Length)
+            int SavesFromAnError = i + 1;
+            if (SavesFromAnError == enter.Length)
             {
-                a = enter.Length - 1;
+                SavesFromAnError = enter.Length - 1;
             }
             else
             {
